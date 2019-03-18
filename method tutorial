@@ -1,0 +1,22 @@
+package classwork;
+
+public class rect {
+
+	public static void printperimeter(double length,double height) {
+
+		double perimeter = 2 *(length + height);
+		System.out.println(perimeter);
+	}
+public static void printarea(double length,double height) {
+		
+		double area = length * height;
+		System.out.println(area);
+	}
+
+
+public static void main(String[] args) {
+	
+	printarea(9.0,4.0);
+	printperimeter(9.0,4.0);
+}
+}
